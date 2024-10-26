@@ -1,0 +1,109 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "editor.lineNumbers": "relative",
+    "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["y"],
+      "after": ["\"", "+", "y"]
+    },
+    {
+      "before": ["<C-a>", "<CR>"],
+      "after": ["<C-a>"]
+    },
+    {
+      "before": ["<C-a>", "a"],
+      "after": ["g", "g", "0", "\"", "+", "y", "G"]
+    },
+    {
+      "before": ["d", "a"],
+      "after": [":", "%", "d", "<CR>"]
+    },
+    {
+      "before": ["y", "G"],
+      "after": ["\"", "+", "y", "G"]
+    },
+    {
+      "before": ["g", "0"],
+      "after": ["g", "g", "0"]
+    },
+    {
+      "before": [";"],
+      "after": ["a", "(", ")", ";", "<C-c>", "h", "i"]
+    },
+    {
+      "before": ["<CR>"],
+      "after": ["o", "<C-c>"]
+    },
+    {
+      "before": ["<C-l>", "c"],
+      "after": [
+        ":",
+        "%",
+        "d",
+        "<CR>",
+        "a",
+        "#",
+        "i",
+        "n",
+        "c",
+        "l",
+        "u",
+        "d",
+        "e",
+        " ",
+        "<",
+        "s",
+        "t",
+        "d",
+        "i",
+        "o",
+        ".",
+        "h",
+        ">",
+        "<CR>",
+        "<CR>",
+        "i",
+        "n",
+        "t",
+        " ",
+        "m",
+        "a",
+        "i",
+        "n",
+        "(",
+        ")",
+        " ",
+        "{",
+        "<CR>",
+        "<CR>",
+        "r",
+        "e",
+        "t",
+        "u",
+        "r",
+        "n",
+        " ",
+        "0",
+        ";",
+        "C-c",
+        "j",
+        "a",
+        "CR",
+        "CR",
+        "<C-c>",
+        "3",
+        "G",
+        "o"
+      ]
+    }
+  ],
+  "workbench.sideBar.location": "right",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "solid",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "liveServer.settings.donotVerifyTags": true
+}
